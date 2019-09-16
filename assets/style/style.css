@@ -1,0 +1,114 @@
+/**
+* CSS styling for web development portfolio site
+**/
+
+/**
+* Part 1: CSS for the index page
+**/
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  background-image: url("../images/white-wall.jpg");
+}
+
+section {
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+img {
+  float: left;
+  padding: 10px;
+}
+
+footer {
+  padding: 20px;
+
+  clear: both;
+  background: grey;
+}
+
+nav {
+  background-color: white;
+}
+
+#about {
+  float: right;
+  width: 20%;
+}
+
+#portfolio {
+  float: right;
+  width: 20%;
+}
+
+#contact {
+  float: right;
+  width: 20%;
+}
+
+.wrapper {
+  background: white;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 175px;
+  margin-right: 175px;
+}
+
+.section-line {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid lightgray;
+  border-width: 1px;
+}
+
+.footer-line {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid teal;
+    border-width: 5px;
+  }
+
+}
