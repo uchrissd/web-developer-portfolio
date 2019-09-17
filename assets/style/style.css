@@ -45,6 +45,7 @@ footer {
   color: white;
   text-align: center;
   font-size: 15px;
+  bottom: 0;
 }
 
 .name,
@@ -119,6 +120,11 @@ button {
   font-family: sans-serif;
   color: white;
   border: solid;
+}
+
+input,
+textarea {
+  width: 100%;
 }
 /** 
 * CSS styling for the contact page
