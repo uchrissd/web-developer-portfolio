@@ -122,6 +122,11 @@ button {
   font-family: sans-serif;
   color: white;
   border: solid;
+  padding: 10px;
+}
+
+textarea {
+  height: 100px;
 }
 
 input,
