@@ -5,5 +5,45 @@
     <link rel="stylesheet" type="text/css" href="assets/style/style.css" />
     <title>Contact</title>
   </head>
-  <body></body>
+  <body>
+    <!--Site menu-->
+    <header>
+      <nav class="menu">
+        <div class="name">Christopher Underwood</div>
+        <div class="links">
+          <div class="options">
+            <div class="about">About |</div>
+            <div class="portfolio">Portfolio |</div>
+            <div class="contact">Contact</div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Main Wrapper-->
+    <main class="wrapper">
+      <section>
+        <h1 style="color: rgb(29, 189, 189)">Contact</h1>
+        <hr class="section-line" />
+        <form action="/my-handling-form-page" method="post">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+          </div>
+          <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_mail" />
+          </div>
+          <div>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </div>
+          <div class="button">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>Copyright Chris Underwood</footer>
+  </body>
 </html>
