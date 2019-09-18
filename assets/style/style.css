@@ -134,6 +134,11 @@ input,
 textarea {
   width: 100%;
 }
+
+.portfolio-box {
+  display: flex;
+  flex-flow: row wrap;
+}
 /** 
 * CSS styling for the contact page
 **/
